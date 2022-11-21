@@ -1,0 +1,22 @@
+{
+  "name": "szabacsik/docker-apache-php-xdebug-snowflake-pdo",
+  "description": "Docker Apache PHP XDebug Snowflake PDO",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "András Szabácsik",
+      "homepage": "https://github.com/szabacsik/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "*",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
